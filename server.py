@@ -34,7 +34,7 @@ setup_routes(app)
 
 @app.route("/")
 def index():
-    return "Hello world!"
+    return "Hello world!!"
 
 
 @app.route("/test", methods=["POST", "GET"])
